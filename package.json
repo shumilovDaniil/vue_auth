@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.1",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
+    "autoprefixer": "^9.8.8",
+    "node-sass": "^7.0.1",
+    "postcss": "^7.0.39",
+    "sass": "^1.54.4",
+    "sass-loader": "^13.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "vite": "^3.0.4"
+  }
+}
